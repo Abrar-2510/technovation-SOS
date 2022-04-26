@@ -1,0 +1,100 @@
+name: todo_list
+description: A new Flutter project.
+
+
+version: 1.1.2+1
+
+environment:
+  sdk: ">=2.6.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.4
+  rounded_loading_button: ^2.1.0
+  url_launcher: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  intl: ^0.17.0
+
+
+
+
+
+
+  dio: ^4.0.4
+
+  shared_preferences: ^2.0.9
+
+
+  provider: ^6.0.1
+
+  carousel_slider: ^4.0.0
+
+  circle_list: ^1.0.5
+
+  sqflite: ^2.0.1
+
+  flutter_colorpicker: ^1.0.2
+
+  cached_network_image: ^3.2.0
+
+  image_picker: ^0.8.4+4
+
+  permission_handler: ^8.3.0
+
+  path_provider: ^2.0.7
+
+  image_crop: ^0.4.0
+
+  flutter_svg: ^1.0.0
+
+  package_info: ^2.0.2
+
+  flutter_webview_plugin: ^0.4.0
+
+  pull_to_refresh: ^2.0.0
+
+  photo_view: ^0.13.0
+
+  url_launcher: ^6.0.17
+
+  open_file: ^3.2.1
+
+  flare_flutter: ^3.0.2
+
+  encrypt: ^5.0.1
+
+  flutter_staggered_animations: ^1.0.0
+
+  wheel_chooser: ^1.0.0
+
+
+
+flutter:
+
+  assets:
+    - images/
+    - images/weather/
+    - local_json/
+    - svgs/
+    - flrs/
+    - images/icon_2.png
+    - assets/
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+
